@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#board{
+    width: 350px;
+    height: 420px;
+    /*background-color: green;*/
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+.tile{
+    /*box*/
+    border: 2px solid #D3D6DA;
+    background-color:  white;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+
+    /*text*/
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*correct letter*/
+.correct{
+    background-color: #6AAA64;
+    border: 2px solid #6AAA64;
+    color: white;
+}
+
+/*correct letter, incorrect position*/
+.present{
+    background-color: #C9B458;
+    border: 2px solid #C9B458;
+    color: white;
+}
+
+/*incorrect letter*/
+.absent{
+    background-color: #787C7E;
+    border: 2px solid #787C7E;
+    color: white;
+}
+
