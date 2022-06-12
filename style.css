@@ -38,6 +38,15 @@ body{
     justify-content: center;
 }
 
+/*text is not entered*/
+.blank{
+    border: 2px solid #D3D6DA;
+}
+
+/*text is entered*/
+.entered{
+    border: 2px solid black;
+}
 
 /*correct letter*/
 .correct{
